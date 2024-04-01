@@ -1,7 +1,6 @@
+#include "main.h"
 #include "CriticalSection.h"
-#include <Windows.h>
  
-
 PerfLib::CriticalSection::CriticalSection()
 {
 	*((BYTE*)this + 24) = 0;

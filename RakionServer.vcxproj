@@ -132,11 +132,17 @@
     <ClCompile Include="LockObject.cpp" />
     <ClCompile Include="main.h" />
     <ClCompile Include="RakionServer.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="ServiceServer.cpp" />
+    <ClCompile Include="TcpSocket.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CriticalSection.h" />
     <ClInclude Include="IPv4Address.h" />
     <ClInclude Include="LockObject.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="ServiceServer.h" />
+    <ClInclude Include="TcpSocket.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

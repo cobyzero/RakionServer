@@ -1,5 +1,5 @@
-#include "LockObject.h"
-#include <Windows.h>
+#include "main.h"
+#include "LockObject.h" 
 #include "CriticalSection.h"
 
 void PerfLib::LockObject<PerfLib::CriticalSection>::Lock()
